@@ -1,0 +1,45 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.loginLabel {
+    display: flex;
+    gap: 10px;
+}
+
+.loginInput {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.loginButton {
+    width: max-content;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tokenInfo {
+    width: 50%;
+    overflow-wrap:break-word;
+}
+
+.button {
+    padding: 10px;
+
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.87);
+    }
+}
